@@ -1,0 +1,9 @@
+﻿@page
+@model PrivacyModel
+@{
+    ViewData["Title"] = "Страница, которая показывает время";
+    var myTime = DateTime.Now.TimeOfDay;
+}   
+<h1>@ViewData["Title"]</h1>
+
+<p>Сообщаю любимому мужу, что сейчас @myTime</p>
